@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class MergeTwoSortedArraysWithoutExtraSpace {
+public class Merge_two_sorted_arrays_without_extraspace {
     public static void mergeTwoSortedArraysWithoutExtraSpace(long []a, long []b){
         int left=a.length-1,right=0;
         while(left>=0 && right<b.length && a[left]>b[right]){
