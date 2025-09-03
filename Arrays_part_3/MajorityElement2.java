@@ -1,4 +1,4 @@
-import java.lang.*;
+
 import java.util.*;
 class MajorityElement2 {
     public List<Integer> majorityElement(int[] nums) {
